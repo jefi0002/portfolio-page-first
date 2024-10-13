@@ -1,30 +1,32 @@
-*{box-sizing: border-box;
-margin: 2px;
-padding: 2px;
-font-family: 'Montserrat', sans-serif;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
 
-body{
+body {
     background-image: url("Pictures/background-trees.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-
 }
-nav{
+
+nav {
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0rem calc((100vw - 1200px) / 2);
 }
+
 nav a {
     text-decoration: none;
     color: white;
-    padding: 0 1.5rem
+    padding: 0 1.5rem;
 }
 
-.logo{
+.logo {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
@@ -32,55 +34,42 @@ nav a {
     padding: 0 2rem;
 }
 
-.hero-container{
+.hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;
     padding: 3rem calc((100vw - 1150px) / 2);
 }
-.column-left{
+
+.column-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 0 2rem;
 }
-.column-left{
-    margin-bottom: 1rem;
-    font-size: 3rem;
-}
-.column-left{
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    line-height: 2.2rem;
+
+h1, p, h4, .list {
+    color: whitesmoke;
 }
 
-h1{
-    color:whitesmoke;
-    font-family: "Tahoma";
-}
-h2{
-    color:whitesmoke;
-    font-family: "Tahoma";
-}
-h4{
-    color:whitesmoke;
-    font-family: "Tahoma";
-}
-p{
-    color:whitesmoke;
-    font-family: "Tahoma";
-}
-#p1{
-    color:whitesmoke;
-}
-#p2\ header{
-    color:whitesmoke;
-    font-family: "Tahoma";
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
 }
 
-@media screen and (max-width: 800px){
-    .hero-container{
+button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 800px) {
+    .hero-container {
         grid-template-columns: 1fr;
     }
 }

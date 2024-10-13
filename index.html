@@ -1,92 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!--Websites name, logo and meta data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeppes Portfolio</title>
-    <link href="Pictures/Flame%20Gradient%20RGB.png" rel="shortcut icon" type="x_icon">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="style.css" rel="stylesheet">
-
-
 </head>
-
-
 <body>
 <main>
     <header>
-        <section id="p2 header"></section>
-        <!-- In the header you have things like the logo and navigation-->
         <nav>
-           <div class="logo">JEPPES PORTFOLIO</div>
-            <div class="nav-items">
-                <a href="/">PLAYLIST</a>
-                <a href="/">COMPANY</a>
-                <a href="/">CONTACT</a>
-            </div>
+            <div class="logo">JEPPES PORTFOLIO</div>
+            <ul class="nav-items">
+                <li><a href="https://open.spotify.com/playlist/1ObbWKsV2hL0wLPc1I3CER?si=c7d089ebc4644b44">PLAYLIST</a></li>
+                <li><a href="https://nussmann.dk">COMPANY</a></li>
+                <li><a href="Kontakt.html">CONTACT</a></li>
+            </ul>
         </nav>
     </header>
 
     <section class="hero">
-        <!--This section is the h1, main welcome text and button to company portfolio-->
-            <div class="hero-container">
-                <div class="column-left">
-                    <h1>Jeppes Portfolio</h1>
-                    <p>Here you can check out my portfolio and read information about my "exiciting" life</p>
-                    <a href="https://nussmann.dk">
-                        <button>GO TO MY COMPANY WEBSITE</button>
-                    </a>
-                </div>
+        <div class="hero-container">
+            <div class="column-left">
+                <h1>Jeppes Portfolio</h1>
+                <p>Check out my portfolio and read about my life</p>
+                <a href="https://nussmann.dk">
+                    <button>Go to my company website</button>
+                </a>
+                <button id="change-back-btn">Change Background & Font Color</button>
             </div>
-         <div class="column-right">
-         </div>
+        </div>
     </section>
 
-
-    <section class="second intro">
-        <!--This section is h4 headline and text about prevous jobs-->
-        <h4 style="color:whitesmoke">Tidligere jobs </h4>
-        <!--2. Overskrift-->
-
-        class="jobs" id="jobs"
-             <ul style="color:whitesmoke">
-                 <li> <i>Marketing Assistent</i> at Q-construction</li>
-                 <li> <i>Student worker</i> at Midttrafik</li>
-                 <li>Marketing Assistent at Eurofins</li>
-                 <li>Freelance Photographer</li>
-             </ul>
-    </section>
-
-    <hr>
-
-<section>
-    <p class="introduction" style="color:whitesmoke">Det her er min digitale portfolio</p>
-    <a href="Kontakt.html" target=_self>Contact</a>
-
-
-<p id="p1">Trods rødder i Vestjylland har jeg valgt at bosætte mig i København. Jeg er uddannet markedsføringsøkonom og har haft egen virksomheden siden min afslutning på film og mediehøjskolen i Odder! 🫡
-
-    Derudover er jeg certificeret dronepilot 🚁</p>
-
-<a href="https://nussmann.dk">
-<button>GÅ TIL MIN FIRMA HJEMMESIDE</button>
-</a>
-
-                </section>
-
-
-<hr>
-
-
-<img alt="This is a picture of me" height="300" src="Pictures/67A7718-jpg.webp" title="Jeppe Filsø">
-
-<br>
-
-    <audio autoplay controls loop src="Funky.mp3">
-    </audio>
-
+    <!-- More content -->
 </main>
+
 <footer>
-    <!-- In the footer you have things like contact information, links, address-->
+    <nav>
+        <div class="nav-items">
+            <a href="https://open.spotify.com/playlist/1ObbWKsV2hL0wLPc1I3CER?si=c7d089ebc4644b44">PLAYLIST</a>
+            <a href="https://nussmann.dk">COMPANY</a>
+            <a href="Kontakt.html">CONTACT</a>
+        </div>
+    </nav>
 </footer>
 
+<script src="main.js"></script>
 </body>
 </html>
